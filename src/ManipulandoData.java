@@ -3,6 +3,7 @@ import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class ManipulandoData {
 
@@ -26,8 +27,6 @@ public class ManipulandoData {
 		 System.out.println("Minutes: " + minutes);
 		 System.out.println("Month: " + month);
 		 System.out.println("Second: " + second);
-		 
-		 
 
 	}
 
