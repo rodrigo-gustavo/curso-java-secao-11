@@ -14,9 +14,9 @@ public class ManipulandoData {
 		 
 		 System.out.println(sdf.format(d));
 		 
-		 Calendar cal = Calendar.getInstance();//Intanciando Calendar
+		 Calendar cal = Calendar.getInstance();//Instanciando Calendar
 		 cal.setTime(d);
-		 cal.add(Calendar.HOUR_OF_DAY, 4);//adiciona dia, hora, minuto e etc, ao calendário
+		 cal.add(Calendar.HOUR_OF_DAY, 4);//adiciona dia, hora, minuto dentre outros métodos ao calendário
 		 d = cal.getTime(); //atualizando a variavel "d" com a nova data
 		 
 		 int minutes = cal.get(Calendar.MINUTE);
